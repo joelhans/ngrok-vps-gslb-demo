@@ -5,5 +5,5 @@ log: stdout
 tunnels:
   vps-demo:
     addr: 5000
-    proto: http
-    domain: <YOUR-NGROK-DOMAIN>.ngrok.app
+    labels:
+      - id=<YOUR_TUNNEL_GROUP>
