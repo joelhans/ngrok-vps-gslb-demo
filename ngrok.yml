@@ -6,4 +6,4 @@ tunnels:
   vps-demo:
     addr: 5000
     labels:
-      - id=<YOUR_TUNNEL_GROUP>
+      - id=<TUNNEL_GROUP_ID>
