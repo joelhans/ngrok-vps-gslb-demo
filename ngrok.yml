@@ -1,4 +1,3 @@
-version: 2
 authtoken: <YOUR-NGROK-AUTHTOKEN>
 log_level: debug
 log: stdout
@@ -6,4 +5,4 @@ tunnels:
   vps-demo:
     addr: 5000
     labels:
-      - id=<TUNNEL_GROUP_ID>
+      - dc=<LOCATION_NAME>
