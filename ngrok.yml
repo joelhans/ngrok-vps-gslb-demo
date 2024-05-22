@@ -1,3 +1,4 @@
+version: 2
 authtoken: <YOUR-NGROK-AUTHTOKEN>
 log_level: debug
 log: stdout
